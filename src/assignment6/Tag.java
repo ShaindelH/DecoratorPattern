@@ -2,7 +2,7 @@ package assignment6;
 
 public abstract class Tag {
 	
-	String description;
+	protected String description;
 	
 	public  String display() {
 		return description;
