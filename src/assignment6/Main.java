@@ -17,6 +17,11 @@ public class Main {
 		
 		System.out.println(tag2.display());
 		
+		Tag tag3 = new Input("button", "action", "onclick", "javascript:alert('action')");
+		tag3 = new Strong(tag3);
+		
+		System.out.println(tag3.display());
+		
 	}
 
 }
